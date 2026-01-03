@@ -1,0 +1,6 @@
+"id","company_id","basic_salary","house_rent_allowanace","standard_allowanace","perforamance_bonus","leave_travel_allowanace","fixed_allowanace","employee_pf","employer_pf","professional_tax","created_at"
+1,3,8,3,8,1,5,7,3,3,25,"2026-01-03 07:36:10.225469"
+2,5,8,3,8,1,5,7,3,3,25,"2026-01-03 07:41:07.725711"
+3,8,8,3,8,1,5,7,3,3,25,"2026-01-03 08:19:09.555497"
+4,9,0,0,0,0,0,0,0,0,0,"2026-01-03 10:33:16.172391"
+5,16,10,10,10,10,10,10,20,0,78,"2026-01-03 11:30:20.286325"

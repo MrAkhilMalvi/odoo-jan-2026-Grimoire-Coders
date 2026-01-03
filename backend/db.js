@@ -3,11 +3,11 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 const pool = new pg.Pool({
-    host: process.env.HOST,
-    port: process.env.DBPORT,
-    user : process.env.USER,
-    database : process.env.NAME,
-    password : process.env.PASSWORD,
+    host: '192.168.0.43',
+    port: 5432,
+    user : 'postgres',
+    database : 'odoo_2026',
+    password : 'shree',
     idleTimeoutMillis : 1000,
     maxLifetimeSeconds : 3000
 });

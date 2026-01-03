@@ -14,12 +14,12 @@ const store = new RedisStore({
   prefix: 'sess:'  // or any prefix *matching* your cookie format
 });
 
+const route = require('./route/index.js')
 dotenv.config();
 const roure = require('./route/index');
 
 const app = express();
 
-// CORS
 app.use(cors({
   origin: ['http://localhost:8080','http://192.168.0.42:8080'],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
